@@ -81,7 +81,7 @@ class GradientEffect(
             vertSource,
             fragSource,
         ).apply {
-            blendState = BlendState.NORMAL
+            blendState = BlendState.ALPHA
             depthTest = URenderPipeline.DepthTest.Always
         }.build()
 
@@ -90,7 +90,7 @@ class GradientEffect(
             UGraphics.DrawMode.QUADS,
             UGraphics.CommonVertexFormats.POSITION_COLOR,
         ).apply {
-            blendState = BlendState.NORMAL
+            blendState = BlendState.ALPHA
             depthTest = URenderPipeline.DepthTest.Always
         }.build()
     }
