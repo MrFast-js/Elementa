@@ -10,8 +10,8 @@ import gg.essential.elementa.components.inspector.Inspector
 import gg.essential.elementa.constraints.*
 import gg.essential.elementa.dsl.*
 import gg.essential.elementa.effects.OutlineEffect
-import gg.essential.elementa.layoutdsl.Modifier
-import gg.essential.elementa.layoutdsl.gradient
+import gg.essential.elementa.unstable.layoutdsl.Modifier
+import gg.essential.elementa.unstable.layoutdsl.gradient
 import gg.essential.elementa.markdown.MarkdownComponent
 import java.awt.Color
 import java.net.URL

@@ -8,8 +8,8 @@ import gg.essential.elementa.constraints.*
 import gg.essential.elementa.constraints.animation.Animations
 import gg.essential.elementa.dsl.*
 import gg.essential.elementa.effects.ScissorEffect
-import gg.essential.elementa.layoutdsl.Modifier
-import gg.essential.elementa.layoutdsl.gradient
+import gg.essential.elementa.unstable.layoutdsl.Modifier
+import gg.essential.elementa.unstable.layoutdsl.gradient
 import java.awt.Color
 
 /**
